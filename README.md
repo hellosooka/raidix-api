@@ -23,7 +23,7 @@ https://raidix-api.herokuapp.com/api
 ## Get all products
 > Method: **GET** 
 ```
-http://[HOST]/api/product/all
+http://raidix-api.herokuapp.com/api/product/all
 ```
 ### Response example
 ```json
@@ -42,7 +42,7 @@ http://[HOST]/api/product/all
 ## Create product by ID
 > Method: **POST** 
 ```
-http://[HOST]/api/product/[ID]
+http://raidix-api.herokuapp.com/api/product/[ID]
 ```
 ### Response example
 ```json
@@ -59,7 +59,7 @@ http://[HOST]/api/product/[ID]
 ### Delete product by ID
 > Method: **DELETE** 
 ```
-http://[HOST]/api/product/[ID]
+http://raidix-api.herokuapp.com/api/product/[ID]
 ```
 ### Response example
 ```json
@@ -76,7 +76,7 @@ http://[HOST]/api/product/[ID]
 ### Change product by ID
 > Method: **PUT** 
 ```
-http://[HOST]/api/product/[ID]
+http://raidix-api.herokuapp.com/api/product/[ID]
 ```
 ### Response example
 ```json
