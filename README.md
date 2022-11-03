@@ -22,7 +22,7 @@ $ npm run start:prod
 ## Get all products
 > Method: **GET** 
 ```
-http://localhost:3000/api/product/all
+http://[HOST]/api/product/all
 ```
 ### Response example
 ```json
@@ -41,7 +41,7 @@ http://localhost:3000/api/product/all
 ## Create product by ID
 > Method: **POST** 
 ```
-http://localhost:3000/api/product/[ID]
+http://[HOST]/api/product/[ID]
 ```
 ### Response example
 ```json
@@ -58,7 +58,7 @@ http://localhost:3000/api/product/[ID]
 ### Delete product by ID
 > Method: **DELETE** 
 ```
-http://localhost:3000/api/product/[ID]
+http://[HOST]/api/product/[ID]
 ```
 ### Response example
 ```json
@@ -75,7 +75,7 @@ http://localhost:3000/api/product/[ID]
 ### Change product by ID
 > Method: **PUT** 
 ```
-http://localhost:3000/api/product/0
+http://[HOST]/api/product/[ID]
 ```
 ### Response example
 ```json
