@@ -10,6 +10,7 @@ export class ProductService {
     try {
       return this.readDataBase();
     } catch (e) {
+      console.log('Error');
       this.createDataBase();
       return this.readDataBase();
     }
@@ -36,13 +37,10 @@ export class ProductService {
   }
 
   writeProduct(dto: CreateProductDto) {
-    const oldProducts = this.getProducts();
-    dto['id'] = oldProducts.data.length;
-    if (oldProducts.length) {
-      this.writeDataToDataBase({ data: [...oldProducts, dto] });
-    } else {
-      this.writeDataToDataBase({ data: [dto] });
-    }
+    const oldProducts = this.getProducts().data;
+    dto['id'] = oldProducts.length;
+    this.writeDataToDataBase({ data: [...oldProducts, dto] });
+
     return dto;
   }
 
