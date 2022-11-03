@@ -24,9 +24,14 @@ export class ProductService {
   }
 
   private createDataBase() {
+    fs.mkdirSync(path.resolve(__dirname, '../db'));
+    this.writeDataToDataBase({ data: [] });
+  }
+
+  private writeDataToDataBase(data) {
     fs.writeFileSync(
       path.resolve(__dirname, '../db/database.json'),
-      JSON.stringify({ data: [] }),
+      JSON.stringify(data),
     );
   }
 
@@ -39,13 +44,6 @@ export class ProductService {
       this.writeDataToDataBase({ data: [dto] });
     }
     return dto;
-  }
-
-  private writeDataToDataBase(data) {
-    fs.writeFileSync(
-      path.resolve(__dirname, '../db/database.json'),
-      JSON.stringify(data),
-    );
   }
 
   deleteProduct(id: number) {
