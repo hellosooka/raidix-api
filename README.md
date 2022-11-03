@@ -39,10 +39,10 @@ http://raidix-api.herokuapp.com/api/product/all
 ]
 ```
 
-## Create product by ID
+## Create product
 > Method: **POST** 
 ```
-http://raidix-api.herokuapp.com/api/product/[ID]
+http://raidix-api.herokuapp.com/api/product
 ```
 ### Response example
 ```json
