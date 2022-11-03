@@ -18,7 +18,8 @@ $ npm run start:prod
 ```
 
 # API QUERY
-
+> ДЛЯ УДОБСТВА ЗАДЕПЛОИЛ НА HEROKU
+https://raidix-api.herokuapp.com/api
 ## Get all products
 > Method: **GET** 
 ```
