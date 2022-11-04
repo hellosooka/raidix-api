@@ -32,7 +32,7 @@ http://raidix-api.herokuapp.com/api/product/all
   "title": "test 2",
   "weight": "50",
   "isExist": false,
-  "Date": 10,
+  "date": 10,
   "customer": "changed",
   "id": 0
  }
@@ -50,7 +50,7 @@ http://raidix-api.herokuapp.com/api/product
  "title": "test",
  "weight": "50",
  "isExist": true,
- "Date": 10,
+ "date": 10,
  "customer": "test cust",
  "id": 0
 }
@@ -67,7 +67,7 @@ http://raidix-api.herokuapp.com/api/product/[ID]
  "title": "test",
  "weight": "50",
  "isExist": true,
- "Date": 10,
+ "date": 10,
  "customer": "test cust",
  "id": 0
 }
@@ -85,7 +85,7 @@ http://raidix-api.herokuapp.com/api/product/[ID]
   "title": "test 2",
   "weight": "50",
   "isExist": false,
-  "Date": 10,
+  "date": 10,
   "customer": "changed",
   "id": 0
  }
