@@ -19,7 +19,10 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
+# Frameworks
+- NEST.JS
+- Moment.js
+- Axios
 # API QUERY
 ## Get all products
 > Method: **GET** 
@@ -92,7 +95,3 @@ http://raidix-api.herokuapp.com/api/product/[ID]
  }
 ]
 ```
-# Frameworks
-- NEST.JS
-- Moment.js
-- Axios
