@@ -1,3 +1,6 @@
+> ДЛЯ УДОБСТВА ЗАДЕПЛОИЛ НА HEROKU
+https://raidix-api.herokuapp.com/api
+** Фронт полностью взаимодействует HEROKU **
 # Installation
 
 ```bash
@@ -18,8 +21,6 @@ $ npm run start:prod
 ```
 
 # API QUERY
-> ДЛЯ УДОБСТВА ЗАДЕПЛОИЛ НА HEROKU
-https://raidix-api.herokuapp.com/api
 ## Get all products
 > Method: **GET** 
 ```
