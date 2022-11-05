@@ -38,7 +38,11 @@ export class ProductService {
 
   writeProduct(dto: CreateProductDto) {
     const oldProducts = this.getProducts().data;
-    dto['id'] = oldProducts.length;
+    if (oldProducts.length > 0) {
+      dto['id'] = oldProducts[oldProducts.length - 1].id + 1;
+    } else {
+      dto['id'] = 0;
+    }
     this.writeDataToDataBase({ data: [...oldProducts, dto] });
 
     return dto;
