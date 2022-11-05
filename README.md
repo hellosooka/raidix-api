@@ -1,6 +1,6 @@
 > ДЛЯ УДОБСТВА ЗАДЕПЛОИЛ НА HEROKU
 https://raidix-api.herokuapp.com/api
-** Фронт полностью взаимодействует HEROKU **
+### **Фронт полностью взаимодействует HEROKU**
 # Installation
 
 ```bash
