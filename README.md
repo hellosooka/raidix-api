@@ -92,5 +92,7 @@ http://raidix-api.herokuapp.com/api/product/[ID]
  }
 ]
 ```
-
-
+# Frameworks
+- NEST.JS
+- Moment.js
+- Axios
